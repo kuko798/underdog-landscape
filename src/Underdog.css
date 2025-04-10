@@ -1,0 +1,120 @@
+
+    .frontpage{
+        padding-top: 100px;
+        background-image: url("/src/dog.jpeg");
+        align-items: center;
+        overflow: hidden;
+    
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        width: 100%;
+        display: flexbox;
+    
+        align-items: center;
+        overflow: hidden;
+    
+    }
+    
+            
+
+    section .cardds {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;  /* This will limit the width of the container */
+        margin: 0 auto;  /* Centers the container horizontally */
+        padding: 0 10px;
+        padding-bottom: 50px;
+        justify-content: center;  /* Centers the cards horizontally */
+        gap: 20px;  /* Adds space between the cards */
+      }
+      
+      section .cardds .cardd {
+        background: #fff;
+        padding: 40px 15px;
+        list-style: none;
+        border-radius: 5px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+        margin-bottom: 40px;
+        width: calc(100% / 3 - 30px);  
+        text-align: center;
+      }
+      
+      .portfolio .cardds .cardd {
+        padding: 0 0 20px;
+      }
+      
+     
+      .services h1 {
+        text-align: center;
+        padding-top: 100px;
+        padding: 100px;
+        padding-bottom: 100px;
+      }
+      
+
+
+      .carousel-wrapper {
+        width: 100%; /* Full width */
+        overflow: hidden; /* Hide overflow to ensure clean animation */
+        position: relative;
+      }
+      
+      .last {
+        padding-top: 50px;
+      }
+      
+      .photo_carousel {
+        display: flex; 
+        flex-wrap: nowrap; 
+        width: fit-content; 
+        animation: bannermove 80s linear infinite; 
+        padding-bottom: 70px;
+      }
+      
+      .photo_carousel img {
+        width: 100%; 
+        max-width: 100%; 
+        height: 300px; 
+        box-shadow: 2px 2px 8px #8a8a8a;
+        margin-right: 20px; 
+        border-radius: 5%;
+      }
+      
+     
+      @keyframes bannermove {
+        0% {
+          transform: translateX(0); 
+        }
+        100% {
+          transform: translateX(-100%); 
+        }
+      }
+
+      @media (max-width: 900px) {
+        .photo_carousel {
+          animation: bannermove 50s linear infinite; 
+        }
+      }
+
+      @media only screen and (max-width: 700px) {
+      
+      .serv{
+         display: flex;
+         flex-direction: column;
+         flex-basis: 100%;
+       }
+       
+       section .cardds .cardd {
+        width: 100%;
+
+    }
+
+    section .cardds {
+        flex-direction: column;
+        align-items: center; 
+    }
+    }
+
+    
