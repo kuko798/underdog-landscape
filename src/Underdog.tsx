@@ -1,4 +1,4 @@
-import './Underdog.css';
+import './components/Underdog.css';
 import { useEffect, useState, useRef } from "react";
 import Swiper from "swiper";
 import "swiper/css/bundle";
