@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 
-import 'src/components/NavBar.css'; 
+import 'src/components/Navbar.css'; 
 
 function NavBar() {
     const [click, setClick] = useState(false);
