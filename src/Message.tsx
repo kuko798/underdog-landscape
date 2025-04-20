@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 import 'src/components/Navbar.css'; 
 
+
 function NavBar() {
     const [click, setClick] = useState(false);
 
